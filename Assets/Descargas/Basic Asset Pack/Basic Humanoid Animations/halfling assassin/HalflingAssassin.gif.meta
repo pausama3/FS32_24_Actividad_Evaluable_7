@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HalflingAssassin_0: 5028278846706647220
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

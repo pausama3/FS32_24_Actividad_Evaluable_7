@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoblinFighter_0: -6693196825125158832
+      GoblinFighter_1: -8118938222039852963
+      GoblinFighter_2: -5315170518701208139
+      GoblinFighter_3: 2372158591443094858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

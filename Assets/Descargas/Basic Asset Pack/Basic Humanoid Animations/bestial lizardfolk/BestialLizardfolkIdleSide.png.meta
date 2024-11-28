@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BestialLizardfolkIdleSide_0: 922752359381869670
+      BestialLizardfolkIdleSide_1: 8968304612159566403
+      BestialLizardfolkIdleSide_2: 7298329925277198754
+      BestialLizardfolkIdleSide_3: 4717652022982390754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoblinWolfRider_0: -6141943793233642964
+      GoblinWolfRider_1: -8799177381728035646
+      GoblinWolfRider_2: -3608453093807279240
+      GoblinWolfRider_3: -4515409570415139021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

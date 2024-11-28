@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LizardfolkSpearman_0: 6323209506843939995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

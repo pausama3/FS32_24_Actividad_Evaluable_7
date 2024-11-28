@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoblinOccultist_0: 6309547770254916487
+      GoblinOccultist_1: -4940378251772509625
+      GoblinOccultist_2: 2605566649073734186
+      GoblinOccultist_3: -7169303659378610526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

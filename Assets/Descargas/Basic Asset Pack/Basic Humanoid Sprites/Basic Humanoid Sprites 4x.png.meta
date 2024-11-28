@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Basic Humanoid Sprites 4x_0: 1759711102581093588
+      Basic Humanoid Sprites 4x_1: -5965655020583978911
+      Basic Humanoid Sprites 4x_10: 2471198954694695970
+      Basic Humanoid Sprites 4x_11: 5930022629259787065
+      Basic Humanoid Sprites 4x_12: -8448030142123166794
+      Basic Humanoid Sprites 4x_13: -7546296052674800126
+      Basic Humanoid Sprites 4x_14: 4976437027169813130
+      Basic Humanoid Sprites 4x_2: 8045119471043715868
+      Basic Humanoid Sprites 4x_3: -4532777688169738392
+      Basic Humanoid Sprites 4x_4: -6901498476303253213
+      Basic Humanoid Sprites 4x_5: -2326243535026132220
+      Basic Humanoid Sprites 4x_6: 8131629091583844053
+      Basic Humanoid Sprites 4x_7: -8313739297636116906
+      Basic Humanoid Sprites 4x_8: 2949328978193133371
+      Basic Humanoid Sprites 4x_9: -3071304329981004840
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

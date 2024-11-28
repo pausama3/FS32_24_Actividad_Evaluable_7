@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BestialLizardfolk_0: -7413061453456497310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

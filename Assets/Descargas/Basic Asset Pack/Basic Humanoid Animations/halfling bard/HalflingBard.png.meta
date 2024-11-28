@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HalflingBard_0: 5341660826395863954
+      HalflingBard_1: -976207994246018325
+      HalflingBard_2: 6181511149979787872
+      HalflingBard_3: 4919868298055163347
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
