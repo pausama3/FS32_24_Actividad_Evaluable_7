@@ -7,7 +7,7 @@ public class ScriptWorldRotation : MonoBehaviour {
     }
 
     private void Update() {
-        transform.rotation = Quaternion.Euler(0, 0, Input.gyro.attitude.x *180);
+        transform.rotation = Quaternion.Euler(0, 0, (Input.gyro.attitude.x + 90) * 180);
     }
     /*Vector3 rot;
     float currentDir;
