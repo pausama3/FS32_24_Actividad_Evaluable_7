@@ -2,12 +2,20 @@ using UnityEngine;
 
 public class ScriptWorldRotation : MonoBehaviour {
 
+    float current = 0;
+
     private void Start() {
         Input.gyro.enabled = true;
     }
 
     private void Update() {
-        transform.rotation = Quaternion.Euler(0, 0, (Input.gyro.attitude.x + 90) * 180);
+        current = Input.acceleration.x;
+        Debug.Log(Input.acceleration);
+        if (current >= 0) {
+            transform.Rotate(new Vector3(0, 0, -0.1f));
+        } else {
+            transform.Rotate(new Vector3(0, 0, 0.1f));
+        }
     }
     /*Vector3 rot;
     float currentDir;
