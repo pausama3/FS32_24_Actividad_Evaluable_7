@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class ScriptWorldRotation : MonoBehaviour {
 
     float current = 0;
+    [SerializeField]
+    float velocidad = 5;
 
     private void Start() {
         Input.gyro.enabled = true;
@@ -11,12 +13,10 @@ public class ScriptWorldRotation : MonoBehaviour {
 
     private void Update() {
         current = Input.acceleration.x;
-        Debug.Log(Input.acceleration);
-        if (current >= 0) {
-            transform.Rotate(new Vector3(0, 0, -0.1f));
-        } else {
-            transform.Rotate(new Vector3(0, 0, 0.1f));
-        }
+   
+        
+            transform.Rotate(new Vector3(0, 0, -velocidad*current));
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             
