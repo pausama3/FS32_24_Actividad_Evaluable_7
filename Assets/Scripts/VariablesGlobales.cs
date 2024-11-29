@@ -1,16 +1,6 @@
 using UnityEngine;
 
-public class VariablesGlobales : MonoBehaviour
+public class VariablesGlobales
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static int contadorMonedas;
 }

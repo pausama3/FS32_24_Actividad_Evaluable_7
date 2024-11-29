@@ -21,18 +21,34 @@ public class CreadorDeAliados : MonoBehaviour
     }
     public void CrearEscudero()
     {
-        Instantiate(escudero, posicion1.transform.position, Quaternion.identity);
+        if (VariablesGlobales.contadorMonedas >= 10) 
+        {
+            Instantiate(escudero, posicion1.transform.position, Quaternion.identity);
+            VariablesGlobales.contadorMonedas = VariablesGlobales.contadorMonedas - 10; 
+        }             
     }
     public void CrearArquero()
     {
-        Instantiate(arquero, posicion2.transform.position, Quaternion.identity);
+        if (VariablesGlobales.contadorMonedas >= 20)
+        {
+            Instantiate(arquero, posicion2.transform.position, Quaternion.identity);
+            VariablesGlobales.contadorMonedas = VariablesGlobales.contadorMonedas - 20;
+        }
     }
     public void CrearMago()
     {
-        Instantiate(mago, posicion1.transform.position, Quaternion.identity);
+        if (VariablesGlobales.contadorMonedas >= 40)
+        {
+            Instantiate(mago, posicion1.transform.position, Quaternion.identity);
+            VariablesGlobales.contadorMonedas = VariablesGlobales.contadorMonedas - 40;
+        }
     }
     public void CrearAsesino()
     {
-        Instantiate(asesino, posicion2.transform.position, Quaternion.identity);
+        if (VariablesGlobales.contadorMonedas >= 30)
+        {
+            Instantiate(asesino, posicion2.transform.position, Quaternion.identity);
+            VariablesGlobales.contadorMonedas = VariablesGlobales.contadorMonedas - 30;
+        }
     }
 }
