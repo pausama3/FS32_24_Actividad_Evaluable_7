@@ -3,8 +3,8 @@ using UnityEngine;
 public class ScriptMeteor : MonoBehaviour {
     [SerializeField] [Range(1, 10)] float speed = 5;
     private Camera mainCamera;
-    void Start()
-    {
+    bool onCamera = false;
+    void Start() {
         mainCamera = Camera.main; // Obtener referencia a la cámara principal.
     }
     void Update() {
@@ -14,23 +14,32 @@ public class ScriptMeteor : MonoBehaviour {
         NotifyMeteorPosition();
     }
     private void OnTriggerEnter2D(Collider2D collision) {
-        transform.position = new Vector2(Random.Range(10, 15), 10);
+        if (collision.tag == "Shield" || collision.tag == "Earth") {
+            transform.position = new Vector2(Random.Range(10, 15), 10);
+        }
     }
-    private void NotifyMeteorPosition()
-    {
+    private void NotifyMeteorPosition() {
         // Convertir la posición del meteorito a coordenadas de la pantalla.
         Vector3 screenPosition = mainCamera.WorldToScreenPoint(transform.position);
 
         // Obtener el centro de la pantalla.
         float screenCenterX = Screen.width / 2;
 
-        if (screenPosition.x > screenCenterX)
-        {
+        if (screenPosition.x > screenCenterX && !onCamera) {
             Debug.Log("El meteorito está a la DERECHA de la pantalla.");
         }
-        else if (screenPosition.x < screenCenterX)
-        {
+        else if (screenPosition.x < screenCenterX && !onCamera) {
             Debug.Log("El meteorito está a la IZQUIERDA de la pantalla.");
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision) {
+        if (collision.tag == "MainCamera") {
+            onCamera = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision) {
+        if (collision.tag == "MainCamera") {
+            onCamera = false;
         }
     }
 }
