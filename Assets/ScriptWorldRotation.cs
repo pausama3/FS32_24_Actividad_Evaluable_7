@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScriptWorldRotation : MonoBehaviour {
 
@@ -16,6 +17,11 @@ public class ScriptWorldRotation : MonoBehaviour {
         } else {
             transform.Rotate(new Vector3(0, 0, 0.1f));
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            
+            SceneManager.LoadScene("MainMenu");
+        }
     }
     /*Vector3 rot;
     float currentDir;
@@ -32,4 +38,5 @@ public class ScriptWorldRotation : MonoBehaviour {
         Debug.Log(rot.z);
         transform.Rotate(rot);
     }*/
+
 }
