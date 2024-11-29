@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 7546f0af0a0c6a54594904b51404a445
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1334313216488241077
+    second: Background_Dust_0
+  - first:
+      213: 4425432331399859601
+    second: Background_Dust_1
+  - first:
+      213: 7488799986367715336
+    second: Background_Dust_2
+  - first:
+      213: -1674772081323493693
+    second: Background_Dust_3
+  - first:
+      213: 6998924308232232550
+    second: Background_Dust_4
+  - first:
+      213: 4131626097729107949
+    second: Background_Dust_5
+  - first:
+      213: -4477859966986026844
+    second: Background_Dust_6
+  - first:
+      213: -3921817957951075217
+    second: Background_Dust_7
+  - first:
+      213: -5252609648816757814
+    second: Background_Dust_8
+  - first:
+      213: -6793540443410267431
+    second: Background_Dust_9
+  - first:
+      213: 8550766967320671442
+    second: Background_Dust_10
+  - first:
+      213: -5598076012524772010
+    second: Background_Dust_11
+  - first:
+      213: -626832590631194667
+    second: Background_Dust_12
+  - first:
+      213: 1757267660437137432
+    second: Background_Dust_13
+  - first:
+      213: 7948397250285900481
+    second: Background_Dust_14
+  - first:
+      213: 1232734936102316179
+    second: Background_Dust_15
+  - first:
+      213: -1589801651004574973
+    second: Background_Dust_16
+  - first:
+      213: -5132549776144200625
+    second: Background_Dust_17
+  - first:
+      213: -8608378432639293976
+    second: Background_Dust_18
+  - first:
+      213: -3621306377874961210
+    second: Background_Dust_19
+  - first:
+      213: 3790129203626324291
+    second: Background_Dust_20
+  - first:
+      213: -434756792050424679
+    second: Background_Dust_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background_Dust_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 63
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b480c18f2319b7de0800000000000000
+      internalID: -1334313216488241077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 146
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d0e9a224b4a6d30800000000000000
+      internalID: 4425432331399859601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 157
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808d56509ef8de760800000000000000
+      internalID: 7488799986367715336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6b8f45aa302c8e0800000000000000
+      internalID: -1674772081323493693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 116
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e5702939c212160800000000000000
+      internalID: 6998924308232232550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 32
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de770ebab0c765930800000000000000
+      internalID: 4131626097729107949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 131
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a00bd1b5127bd1c0800000000000000
+      internalID: -4477859966986026844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 83
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c049e8857e299c0800000000000000
+      internalID: -3921817957951075217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 104
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3ec7a9a5bfa17b0800000000000000
+      internalID: -5252609648816757814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 81
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2084fd5fe78b1a0800000000000000
+      internalID: -6793540443410267431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 69
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4fa4cb04d6aa670800000000000000
+      internalID: 8550766967320671442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 48
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65563d7c683af42b0800000000000000
+      internalID: -5598076012524772010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 29
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df2ac5741b0d47f0800000000000000
+      internalID: -626832590631194667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_13
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 52
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81823a370a1136810800000000000000
+      internalID: 1757267660437137432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c29bfccf216e4e60800000000000000
+      internalID: 7948397250285900481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398a790a4ed8b1110800000000000000
+      internalID: 1232734936102316179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303fa8052d3efe9e0800000000000000
+      internalID: -1589801651004574973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c0ae80c2585c8b0800000000000000
+      internalID: -5132549776144200625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 13
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5a666bc65e88880800000000000000
+      internalID: -8608378432639293976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc08eb29098ebdc0800000000000000
+      internalID: -3621306377874961210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3413bf20e6e399430800000000000000
+      internalID: 3790129203626324291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dust_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9946526400f67f9f0800000000000000
+      internalID: -434756792050424679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Background_Dust_0: -1334313216488241077
+      Background_Dust_1: 4425432331399859601
+      Background_Dust_10: 8550766967320671442
+      Background_Dust_11: -5598076012524772010
+      Background_Dust_12: -626832590631194667
+      Background_Dust_13: 1757267660437137432
+      Background_Dust_14: 7948397250285900481
+      Background_Dust_15: 1232734936102316179
+      Background_Dust_16: -1589801651004574973
+      Background_Dust_17: -5132549776144200625
+      Background_Dust_18: -8608378432639293976
+      Background_Dust_19: -3621306377874961210
+      Background_Dust_2: 7488799986367715336
+      Background_Dust_20: 3790129203626324291
+      Background_Dust_21: -434756792050424679
+      Background_Dust_3: -1674772081323493693
+      Background_Dust_4: 6998924308232232550
+      Background_Dust_5: 4131626097729107949
+      Background_Dust_6: -4477859966986026844
+      Background_Dust_7: -3921817957951075217
+      Background_Dust_8: -5252609648816757814
+      Background_Dust_9: -6793540443410267431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
