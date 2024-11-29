@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 2818505795665102031}
   - component: {fileID: 8158227772099217771}
   - component: {fileID: 982757253881610244}
+  - component: {fileID: 3833046280507010823}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Warning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,3 +99,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3833046280507010823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2262007844792170156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba249b8b5560555469b141b98914ce11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActive: 0
+  pastActive: 0

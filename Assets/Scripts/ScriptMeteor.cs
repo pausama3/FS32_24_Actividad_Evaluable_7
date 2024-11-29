@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ScriptMeteor : MonoBehaviour {
     [SerializeField] [Range(1, 10)] float speed = 5;
+    [SerializeField] GameObject WarningLeftt;
+    [SerializeField] GameObject WarningRight;
     private Camera mainCamera;
     bool onCamera = false;
     void Start() {
@@ -26,9 +28,11 @@ public class ScriptMeteor : MonoBehaviour {
         float screenCenterX = Screen.width / 2;
 
         if (screenPosition.x > screenCenterX && !onCamera) {
+            WarningRight.GetComponent<ScriptWarning>().isActive = true;
             Debug.Log("El meteorito está a la DERECHA de la pantalla.");
         }
         else if (screenPosition.x < screenCenterX && !onCamera) {
+            WarningLeftt.GetComponent<ScriptWarning>().isActive = true;
             Debug.Log("El meteorito está a la IZQUIERDA de la pantalla.");
         }
     }
@@ -39,7 +43,10 @@ public class ScriptMeteor : MonoBehaviour {
     }
     private void OnTriggerExit2D(Collider2D collision) {
         if (collision.tag == "MainCamera") {
+            Debug.Log("exit");
             onCamera = false;
+            WarningRight.GetComponent<ScriptWarning>().isActive = false;
+            WarningLeftt.GetComponent<ScriptWarning>().isActive = false;
         }
     }
 }
