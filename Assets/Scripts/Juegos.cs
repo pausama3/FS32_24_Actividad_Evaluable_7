@@ -15,7 +15,7 @@ public class Juegos : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("Botón Atrás presionado"); // Confirmar la detección
-            SceneManager.LoadScene("MainMenu");
+            ReturnToMenu();
         }
     }
     public void Minijuego1()
@@ -25,4 +25,9 @@ public class Juegos : MonoBehaviour
     {
         SceneManager.LoadScene("Game2");
     }
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }

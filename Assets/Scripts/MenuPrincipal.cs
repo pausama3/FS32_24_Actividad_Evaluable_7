@@ -22,5 +22,9 @@ public class MenuPrincipal : MonoBehaviour
     {
         SceneManager.LoadScene("Games");
     }
+    public void Creditos()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 
 }
