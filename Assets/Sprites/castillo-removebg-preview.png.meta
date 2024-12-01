@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      castillo-removebg-preview_0: 4050234323083743728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

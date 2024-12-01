@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fuego-removebg-preview_0: -2022697449726169950
+      fuego-removebg-preview_1: 1031272254020326049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
