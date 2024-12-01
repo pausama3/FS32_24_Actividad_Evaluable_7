@@ -15,4 +15,12 @@ public class EnemigoEspadachin : MonoBehaviour
     {
         transform.Translate(Vector3.down * velocidad * Time.deltaTime);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<Escudero>() != null || other.GetComponent<Asesino>() != null)
+        {
+            Destroy(this.gameObject);
+            //animacion morir                
+        }
+    }
 }

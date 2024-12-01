@@ -25,7 +25,7 @@ public class Arquero : MonoBehaviour
         {
             transform.Translate(Vector3.up * velocidad * Time.deltaTime);
         }
-         
+
     }
     public void CrearFlecha()
     {
@@ -39,4 +39,23 @@ public class Arquero : MonoBehaviour
     {
         move = true;
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("BolaFuego"))
+        {
+            Destroy(this.gameObject);
+            //muerte
+        }
+        if (other.CompareTag("Enemigo"))
+        {
+            Destroy(this.gameObject);
+            //muerte
+        }
+        if (other.CompareTag("FlechaEnemiga"))
+        {
+            Destroy(this.gameObject);
+            //muerte
+        }
+    }
+
 }

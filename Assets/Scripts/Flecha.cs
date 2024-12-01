@@ -13,6 +13,6 @@ public class Flecha : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.down * velocidad * Time.deltaTime);
+        transform.Translate(Vector3.down * velocidad * Time.deltaTime, Space.World);
     }
 }

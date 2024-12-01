@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -4861129691996737109}
   m_Layer: 0
   m_Name: bolaazul
-  m_TagString: BolaFuego
+  m_TagString: BolaAzul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

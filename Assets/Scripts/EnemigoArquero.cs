@@ -39,4 +39,15 @@ public class EnemigoArquero : MonoBehaviour
     {
         move = true;
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("BolaAzul"))
+        {
+            Destroy(this.gameObject);
+        }
+        if (other.CompareTag("Aliado"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

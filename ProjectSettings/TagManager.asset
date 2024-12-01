@@ -7,6 +7,11 @@ TagManager:
   - Shield
   - Meteor
   - Earth
+  - BolaFuego
+  - Aliado
+  - Enemigo
+  - FlechaEnemiga
+  - BolaAzul
   layers:
   - Default
   - TransparentFX
