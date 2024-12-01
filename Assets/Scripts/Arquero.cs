@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemigoArquero : MonoBehaviour
+public class Arquero : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField]
@@ -23,15 +23,15 @@ public class EnemigoArquero : MonoBehaviour
     {
         if (move)
         {
-            transform.Translate(Vector3.down * velocidad * Time.deltaTime);
+            transform.Translate(Vector3.up * velocidad * Time.deltaTime);
         }
-
+         
     }
     public void CrearFlecha()
     {
         move = false;
 
-        clonFlecha = Instantiate(flecha, posicion.transform.position, Quaternion.Euler(0f, 0f, 270f));        
+        clonFlecha = Instantiate(flecha, posicion.transform.position, Quaternion.Euler(0f, 0f, 270f));
         Invoke("ActivarMove", 3f);
 
     }
