@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,10 +158,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 147
-        width: 62
-        height: 58
+        x: 0
+        y: 144
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 147
-        width: 54
-        height: 54
+        x: 72
+        y: 144
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_2
       rect:
         serializedVersion: 2
-        x: 155
-        y: 147
-        width: 54
-        height: 54
+        x: 144
+        y: 144
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_3
       rect:
         serializedVersion: 2
-        x: 227
-        y: 147
-        width: 50
-        height: 54
+        x: 216
+        y: 144
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_4
       rect:
         serializedVersion: 2
-        x: 295
-        y: 147
-        width: 62
-        height: 62
+        x: 288
+        y: 144
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_5
       rect:
         serializedVersion: 2
-        x: 3
-        y: 75
-        width: 58
-        height: 50
+        x: 0
+        y: 72
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +290,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_6
       rect:
         serializedVersion: 2
-        x: 79
-        y: 75
-        width: 58
-        height: 54
+        x: 72
+        y: 72
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +312,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_7
       rect:
         serializedVersion: 2
-        x: 147
-        y: 75
-        width: 62
-        height: 62
+        x: 144
+        y: 72
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_8
       rect:
         serializedVersion: 2
-        x: 219
-        y: 75
-        width: 62
-        height: 58
+        x: 216
+        y: 72
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_9
       rect:
         serializedVersion: 2
-        x: 291
-        y: 75
-        width: 66
-        height: 66
+        x: 288
+        y: 72
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_10
       rect:
         serializedVersion: 2
-        x: 7
-        y: 3
-        width: 62
-        height: 66
+        x: 0
+        y: 0
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +400,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_11
       rect:
         serializedVersion: 2
-        x: 79
-        y: 3
-        width: 62
-        height: 62
+        x: 72
+        y: 0
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_12
       rect:
         serializedVersion: 2
-        x: 147
-        y: 3
-        width: 62
-        height: 66
+        x: 144
+        y: 0
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_13
       rect:
         serializedVersion: 2
-        x: 219
-        y: 3
-        width: 66
-        height: 66
+        x: 216
+        y: 0
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +466,10 @@ TextureImporter:
       name: Basic Humanoid Sprites 4x_14
       rect:
         serializedVersion: 2
-        x: 295
-        y: 3
-        width: 54
-        height: 66
+        x: 288
+        y: 0
+        width: 72
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,7 +488,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f257f9d431a852747b3dd119b76fa5f0
     internalID: 0
     vertices: []
     indices: 
