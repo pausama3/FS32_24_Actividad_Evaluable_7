@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8634522581572451391}
   - component: {fileID: 4462648338278747667}
   - component: {fileID: 6117374231195534205}
+  - component: {fileID: 7774970728288592644}
   m_Layer: 0
   m_Name: Mago
   m_TagString: Aliado
@@ -129,7 +130,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.62, y: 0.58}
+    oldSize: {x: 0.72, y: 0.72}
     newSize: {x: 0.62, y: 0.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -179,6 +180,28 @@ MonoBehaviour:
   velocidad: 0.5
   posicion: {fileID: 5160887954742473457}
   Bola: {fileID: 1764840066987907508, guid: 62d7c43f51c57f94784ca5f68b34bf02, type: 3}
+--- !u!95 &7774970728288592644
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111450753599259891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 419249730d4cec84aab7f2c3d273cae1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5160887954742473457
 GameObject:
   m_ObjectHideFlags: 0

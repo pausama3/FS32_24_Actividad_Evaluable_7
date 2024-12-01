@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 8393706039765943464}
   - component: {fileID: 7019186695298995537}
   - component: {fileID: 2802331209027098771}
+  - component: {fileID: 1900206070544468523}
   m_Layer: 0
   m_Name: EnemigoArquero
   m_TagString: Enemigo
@@ -159,7 +160,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.62, y: 0.66}
+    oldSize: {x: 0.72, y: 0.72}
     newSize: {x: 0.62, y: 0.66}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -182,3 +183,25 @@ MonoBehaviour:
   velocidad: 0.5
   posicion: {fileID: 685941767406642011}
   flecha: {fileID: 2628523360089307582, guid: cac22015cfd8b174dbca912832cd7515, type: 3}
+--- !u!95 &1900206070544468523
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9129137313662984204}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 290700f842c673749bf7fec702b19db2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

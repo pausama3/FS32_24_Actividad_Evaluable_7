@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: bdb422375110dee49a2e2f438fbe9afa
+guid: 727b3f9f702196343925b92b10da4ab0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7244646859618351049
-    second: bolaazul_0
+      213: -2841235712839708614
+    second: Aliado2_0
+  - first:
+      213: -4660218615937908263
+    second: Aliado2_1
+  - first:
+      213: 5732494415535073020
+    second: Aliado2_2
+  - first:
+      213: -527187718499738490
+    second: Aliado2_3
+  - first:
+      213: 7658318196912922877
+    second: Aliado2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bolaazul_0
+      name: Aliado2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 14
-        width: 205
-        height: 67
+        x: 0
+        y: 0
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7388c41a018d57b90800000000000000
-      internalID: -7244646859618351049
+      spriteID: a3019053c27e198d0800000000000000
+      internalID: -2841235712839708614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aliado2_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1cb551cd3935fb0800000000000000
+      internalID: -4660218615937908263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aliado2_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6e0e28c49ed8f40800000000000000
+      internalID: 5732494415535073020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aliado2_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cdfdc209d0fa8f0800000000000000
+      internalID: -527187718499738490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aliado2_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0a7e713dfc74a60800000000000000
+      internalID: 7658318196912922877
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 91e25e71cb1102c459adb0412fc82954
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bolaazul_0: -7244646859618351049
+      Aliado2_0: -2841235712839708614
+      Aliado2_1: -4660218615937908263
+      Aliado2_2: 5732494415535073020
+      Aliado2_3: -527187718499738490
+      Aliado2_4: 7658318196912922877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

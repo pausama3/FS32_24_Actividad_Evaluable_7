@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: bdb422375110dee49a2e2f438fbe9afa
+guid: fe8916e65f789ba4ca8b4e223e5ef32b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7244646859618351049
-    second: bolaazul_0
+      213: -972561211674659897
+    second: Enemigo3_0
+  - first:
+      213: -4839441835465673348
+    second: Enemigo3_1
+  - first:
+      213: 2644976836121243074
+    second: Enemigo3_2
+  - first:
+      213: -8687717201469502606
+    second: Enemigo3_3
+  - first:
+      213: 5002231060414031527
+    second: Enemigo3_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bolaazul_0
+      name: Enemigo3_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 14
-        width: 205
-        height: 67
+        x: 0
+        y: 0
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7388c41a018d57b90800000000000000
-      internalID: -7244646859618351049
+      spriteID: 7c3fec71bb4c082f0800000000000000
+      internalID: -972561211674659897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo3_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7577e58a49d6dcb0800000000000000
+      internalID: -4839441835465673348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo3_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cda4243b68d4b420800000000000000
+      internalID: 2644976836121243074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo3_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b0c591c370f6780800000000000000
+      internalID: -8687717201469502606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo3_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6676085ae7b6540800000000000000
+      internalID: 5002231060414031527
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 195cf1e24b0a28f409c43926fa1a6eab
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bolaazul_0: -7244646859618351049
+      Enemigo3_0: -972561211674659897
+      Enemigo3_1: -4839441835465673348
+      Enemigo3_2: 2644976836121243074
+      Enemigo3_3: -8687717201469502606
+      Enemigo3_4: 5002231060414031527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

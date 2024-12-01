@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1161176263634585042}
   - component: {fileID: 8034827104204761408}
   - component: {fileID: 3149336386721517811}
+  - component: {fileID: 7050314780862525658}
   m_Layer: 0
   m_Name: EnemigoCaballero
   m_TagString: Enemigo
@@ -140,7 +141,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.66, y: 0.66}
+    oldSize: {x: 0.72, y: 0.72}
     newSize: {x: 0.66, y: 0.66}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -148,3 +149,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.66, y: 0.66}
   m_EdgeRadius: 0
+--- !u!95 &7050314780862525658
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440733837927097461}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5ffec4f08f4a4f943940f8ef7926ce0e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
