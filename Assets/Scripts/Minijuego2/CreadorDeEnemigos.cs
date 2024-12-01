@@ -19,7 +19,7 @@ public class CreadorDeEnemigos : MonoBehaviour
         posiciones = new GameObject[] { posicion1, posicion2 };
 
         // Invocar la creación repetitiva de enemigos cada 10 segundos
-        InvokeRepeating("InstanciarEnemigoAleatorio", 0f, 2f);
+        InvokeRepeating("InstanciarEnemigoAleatorio", 0f, 6f);
     }
 
     void InstanciarEnemigoAleatorio()

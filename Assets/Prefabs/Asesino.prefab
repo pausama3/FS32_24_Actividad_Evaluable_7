@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6819547546624265698}
   - component: {fileID: 5213916942519693874}
   - component: {fileID: 199785411715880126}
+  - component: {fileID: 8365117649660809246}
   m_Layer: 0
   m_Name: Asesino
   m_TagString: Aliado
@@ -185,3 +186,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8365117649660809246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3347112550725104362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a0c3ddf3b017042b9d6e21bd6c3f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 1

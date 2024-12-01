@@ -12,16 +12,18 @@ public class Arquero : MonoBehaviour
     private GameObject clonFlecha;
 
     private bool move;
+    private bool morirse;
     void Start()
     {
         move = true;
+        morirse = false;
         InvokeRepeating("CrearFlecha", 0f, 6f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (move)
+        if (move && !morirse)
         {
             transform.Translate(Vector3.up * velocidad * Time.deltaTime);
         }
@@ -30,10 +32,11 @@ public class Arquero : MonoBehaviour
     public void CrearFlecha()
     {
         move = false;
-
-        clonFlecha = Instantiate(flecha, posicion.transform.position, Quaternion.Euler(0f, 0f, 270f));
-        Invoke("ActivarMove", 3f);
-
+        if(!morirse)
+        {
+            clonFlecha = Instantiate(flecha, posicion.transform.position, Quaternion.Euler(0f, 0f, 90f));
+            Invoke("ActivarMove", 3f);
+        }      
     }
     public void ActivarMove()
     {
@@ -43,19 +46,27 @@ public class Arquero : MonoBehaviour
     {
         if (other.CompareTag("BolaFuego"))
         {
-            Destroy(this.gameObject);
-            //muerte
+            morirse = true;
+            Invoke("Morir", 0.3f);
+            //animacion morir
         }
         if (other.CompareTag("Enemigo"))
         {
-            Destroy(this.gameObject);
-            //muerte
+            morirse = true;
+            Invoke("Morir", 0.3f);
+            //animacion morir
         }
         if (other.CompareTag("FlechaEnemiga"))
         {
-            Destroy(this.gameObject);
-            //muerte
+            morirse = true;
+            Destroy(other.gameObject);
+            Invoke("Morir", 0.3f);
+            //animacion morir
         }
+    }
+    private void Morir()
+    {
+        Destroy(this.gameObject);
     }
 
 }

@@ -15,7 +15,7 @@ public class Escudero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (morirse)
+        if (!morirse)
         {
             transform.Translate(Vector3.up * velocidad * Time.deltaTime);
         }
@@ -36,6 +36,7 @@ public class Escudero : MonoBehaviour
             if (other.CompareTag("FlechaEnemiga"))
             {
                 morirse = true;
+                Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
                 //animacion morir
 
