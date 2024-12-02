@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 public class WorldHealth : MonoBehaviour {
     [SerializeField] GameObject healthBar;
     int health = 5;
-    private void Update() {
+
+    void Start()
+    {
         VariablesGlobales.contadorMonedas = 0;
+    }
+    private void Update() {
+        
         if (health <= 0) {
             SceneManager.LoadScene("LosePlanetKeeper");
         }

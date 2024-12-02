@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -14,13 +15,14 @@ public class EnemigoMago : MonoBehaviour
     
 
     private bool move;
-    private bool morirse;   
-
+    private bool morirse;
+    private GameObject sound;
     void Start()
     {
         move = true;
         morirse = false;
         InvokeRepeating("CrearBola", 1f, 6f);
+        sound = GameObject.Find("Cute_Grunt_2");
     }
 
     // Update is called once per frame
@@ -59,12 +61,14 @@ public class EnemigoMago : MonoBehaviour
             morirse = true;
             Invoke("Morir", 0.3f);
             gameObject.GetComponent<Animator>().SetTrigger("Die");
+            sound.GetComponent<AudioSource>().Play();
         }
         if (other.CompareTag("Aliado"))
         {
             morirse = true;
             Invoke("Morir", 0.3f);
             gameObject.GetComponent<Animator>().SetTrigger("Die");
+            sound.GetComponent<AudioSource>().Play();
         }
         if (other.CompareTag("FlechaAliada"))
         {
@@ -72,6 +76,7 @@ public class EnemigoMago : MonoBehaviour
             Destroy(other.gameObject);
             Invoke("Morir", 0.3f);
             gameObject.GetComponent<Animator>().SetTrigger("Die");
+            sound.GetComponent<AudioSource>().Play();
         }
         if (other.CompareTag("Castillo"))
         {

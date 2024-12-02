@@ -7,9 +7,12 @@ public class EnemigoCaballero : MonoBehaviour
     private float velocidad = 0.5f;
    
     private bool morirse;
+
+    private GameObject sound;
     void Start()
     {
         morirse = false;
+        sound = GameObject.Find("Cute_Grunt_2");
     }
     // Update is called once per frame
     void Update()
@@ -30,6 +33,7 @@ public class EnemigoCaballero : MonoBehaviour
                     morirse = true;
                     Invoke("Morir", 0.3f);
                     gameObject.GetComponent<Animator>().SetTrigger("Die");
+                    sound.GetComponent<AudioSource>().Play();
                 }
             }
             if (other.CompareTag("FlechaAliada"))
@@ -38,12 +42,14 @@ public class EnemigoCaballero : MonoBehaviour
                 Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
+                sound.GetComponent<AudioSource>().Play();
             }
             if (other.CompareTag("BolaAzul"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
+                sound.GetComponent<AudioSource>().Play();
             }
             if (other.CompareTag("Castillo"))
             {

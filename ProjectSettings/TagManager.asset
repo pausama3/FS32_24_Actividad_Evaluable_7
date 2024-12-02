@@ -16,6 +16,8 @@ TagManager:
   - Castillo
   - DropZone
   - Limit
+  - enemysound
+  - allysound
   layers:
   - Default
   - TransparentFX

@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemigoEspadachin : MonoBehaviour
@@ -6,9 +7,11 @@ public class EnemigoEspadachin : MonoBehaviour
     [SerializeField]
     private float velocidad = 0.5f;
     private bool morirse;
+    private GameObject sound;
     void Start()
     {
         morirse = false;
+        sound = GameObject.Find("Cute_Grunt_2");
     }
 
     // Update is called once per frame
@@ -28,6 +31,7 @@ public class EnemigoEspadachin : MonoBehaviour
                 morirse = true;                
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
+                sound.GetComponent<AudioSource>().Play();
             }
             if (other.CompareTag("FlechaAliada"))
             {
@@ -35,6 +39,7 @@ public class EnemigoEspadachin : MonoBehaviour
                 Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
+                sound.GetComponent<AudioSource>().Play();
 
             }
             if (other.CompareTag("BolaAzul"))
@@ -42,6 +47,7 @@ public class EnemigoEspadachin : MonoBehaviour
                 morirse = true;
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
+                sound.GetComponent<AudioSource>().Play();
             }
             if (other.CompareTag("Castillo"))
             {
