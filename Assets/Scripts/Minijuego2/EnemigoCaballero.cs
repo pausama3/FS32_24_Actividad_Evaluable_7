@@ -45,6 +45,11 @@ public class EnemigoCaballero : MonoBehaviour
                 Invoke("Morir", 0.3f);
                 //animacion morir
             }
+            if (other.CompareTag("Castillo"))
+            {
+                VariablesGlobales.vida--;
+                Destroy(this.gameObject);
+            }
         }
     }
     private void Morir()

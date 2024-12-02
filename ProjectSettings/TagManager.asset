@@ -13,6 +13,7 @@ TagManager:
   - FlechaEnemiga
   - BolaAzul
   - FlechaAliada
+  - Castillo
   layers:
   - Default
   - TransparentFX

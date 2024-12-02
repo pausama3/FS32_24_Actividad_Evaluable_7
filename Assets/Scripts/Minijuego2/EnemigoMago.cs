@@ -27,8 +27,7 @@ public class EnemigoMago : MonoBehaviour
         if(move && !morirse)
         {
             transform.Translate(Vector3.down * velocidad * Time.deltaTime);
-        }
-        
+        }              
     }
     public void CrearBola()
     {
@@ -64,6 +63,11 @@ public class EnemigoMago : MonoBehaviour
             Destroy(other.gameObject);
             Invoke("Morir", 0.3f);
             //animacion morir
+        }
+        if (other.CompareTag("Castillo"))
+        {
+            VariablesGlobales.vida--;
+            Destroy(this.gameObject);
         }
     }
     private void Morir()

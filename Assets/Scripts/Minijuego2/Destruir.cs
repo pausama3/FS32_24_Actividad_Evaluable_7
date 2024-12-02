@@ -1,10 +1,8 @@
 using UnityEngine;
 
-public class Flecha : MonoBehaviour
+public class Destruir : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField]
-    private float velocidad = 1f;
     void Start()
     {
         
@@ -13,13 +11,10 @@ public class Flecha : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.down * velocidad * Time.deltaTime, Space.World);
+        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Castillo"))
-        {
-            Destroy(this.gameObject);
-        }
+        Destroy(other.gameObject);
     }
 }
