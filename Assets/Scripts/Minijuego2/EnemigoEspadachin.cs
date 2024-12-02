@@ -46,12 +46,13 @@ public class EnemigoEspadachin : MonoBehaviour
             if (other.CompareTag("Castillo"))
             {
                 VariablesGlobales.vida--;
-                Destroy(this.gameObject);                               
+                Morir();
             }
         }
     }
     private void Morir()
     {
-        Destroy(this.gameObject);
+        this.transform.position = new Vector3( -6,0,0);
+        this.gameObject.GetComponent<EnemigoEspadachin>().enabled = false;
     }
 }

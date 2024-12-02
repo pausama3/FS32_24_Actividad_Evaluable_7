@@ -180,9 +180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99428f76e49f9b5438ef0c4dc665aae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 5
+  velocidad: 0.5
   posicion: {fileID: 3209548495768613776}
-  Bola: {fileID: 6999665949523522939, guid: ec20d5d59bec89c409e8e4ca5cc75b43, type: 3}
+  bolas: {fileID: 0}
 --- !u!95 &6450054311799821857
 Animator:
   serializedVersion: 7

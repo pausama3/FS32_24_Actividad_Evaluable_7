@@ -1,23 +1,26 @@
+using Unity.Mathematics;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 public class EnemigoArquero : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField]
     private float velocidad = 2f;
+    
     [SerializeField]
-    private GameObject posicion;
-    [SerializeField]
-    private GameObject flecha;
-    private GameObject clonFlecha;
+    private GameObject flechas;
+    
 
     private bool move;
     private bool morirse;
+    
     void Start()
     {
         move = true;
         morirse = false;
-        InvokeRepeating("CrearFlecha", 0f, 6f);
+        VariablesGlobales.flechaRR = -1;
+        InvokeRepeating("CrearFlecha", 1f, 2f);
     }
 
     // Update is called once per frame
@@ -34,7 +37,14 @@ public class EnemigoArquero : MonoBehaviour
         move = false;
         if (!morirse)
         {
-            clonFlecha = Instantiate(flecha, posicion.transform.position, Quaternion.Euler(0f, 0f, 270f));
+            VariablesGlobales.flechaRR++;
+            if(VariablesGlobales.flechaRR >= flechas.transform.childCount)
+            {
+                VariablesGlobales.flechaRR = 0;
+            }
+            flechas.transform.GetChild(VariablesGlobales.flechaRR).gameObject.transform.position = this.transform.GetChild(0).transform.position;
+            flechas.transform.GetChild(VariablesGlobales.flechaRR).gameObject.transform.rotation = Quaternion.Euler(0,0,270);
+            
             Invoke("ActivarMove", 3f);
         }
     }
@@ -66,11 +76,12 @@ public class EnemigoArquero : MonoBehaviour
         if (other.CompareTag("Castillo"))
         {
             VariablesGlobales.vida--;
-            Destroy(this.gameObject);
+            Morir();
         }
     }
     private void Morir()
     {
-        Destroy(this.gameObject);
+        this.transform.position = new Vector3(-6, 0, 0);
+        this.gameObject.GetComponent<EnemigoArquero>().enabled = false;
     }
 }

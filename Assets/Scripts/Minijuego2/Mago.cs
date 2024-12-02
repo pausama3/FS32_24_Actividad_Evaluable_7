@@ -11,6 +11,10 @@ public class Mago : MonoBehaviour
     private GameObject Bola;
     private GameObject clonBola;
 
+    [SerializeField]
+    private GameObject padreBola;
+    
+
     private bool move;
     private bool morirse;
     void Start()

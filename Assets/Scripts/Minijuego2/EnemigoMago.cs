@@ -9,16 +9,18 @@ public class EnemigoMago : MonoBehaviour
     [SerializeField]
     private GameObject posicion;
     [SerializeField]
-    private GameObject Bola;
-    private GameObject clonBola;
+    private GameObject bolas;
+    private GameObject bolaActual;
+    
 
     private bool move;
-    private bool morirse;
+    private bool morirse;   
+
     void Start()
     {
         move = true;
         morirse = false;
-        InvokeRepeating("CrearBola", 0f, 6f);
+        InvokeRepeating("CrearBola", 1f, 6f);
     }
 
     // Update is called once per frame
@@ -34,8 +36,15 @@ public class EnemigoMago : MonoBehaviour
         move=false;
         if (!morirse)
         {
-            clonBola = Instantiate(Bola, posicion.transform.position, Quaternion.Euler(0f, 0f, 90f));
-            Destroy(clonBola, 3f);
+            VariablesGlobales.bolaRR++;
+            if (VariablesGlobales.bolaRR >= bolas.transform.childCount)
+            {
+                VariablesGlobales.bolaRR = 0;
+            }
+            bolas.transform.GetChild(VariablesGlobales.bolaRR).gameObject.transform.position = this.transform.GetChild(0).transform.position;
+            bolas.transform.GetChild(VariablesGlobales.bolaRR).gameObject.transform.rotation = Quaternion.Euler(0, 0, 90);
+            bolaActual = bolas.transform.GetChild(VariablesGlobales.bolaRR).gameObject;
+            Invoke("MoverBola", 3f);
             Invoke("ActivarMove", 3f);
         }
     }
@@ -67,11 +76,16 @@ public class EnemigoMago : MonoBehaviour
         if (other.CompareTag("Castillo"))
         {
             VariablesGlobales.vida--;
-            Destroy(this.gameObject);
+            Morir();
         }
     }
     private void Morir()
     {
-        Destroy(this.gameObject);
+        this.transform.position = new Vector3(-6, 0, 0);
+        this.gameObject.GetComponent<EnemigoMago>().enabled = false;
+    }
+    private void MoverBola()
+    {
+        bolaActual.transform.position = new Vector3(-6, 0, 0);
     }
 }
