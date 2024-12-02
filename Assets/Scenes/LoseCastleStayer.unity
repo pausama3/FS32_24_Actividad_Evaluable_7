@@ -459,7 +459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: POINTS
+  m_text: SCORE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c93d45b5af7512a44a041bacfdac53ca, type: 2}
   m_sharedMaterial: {fileID: -1184616542733577511, guid: c93d45b5af7512a44a041bacfdac53ca, type: 2}
@@ -2163,6 +2163,7 @@ GameObject:
   - component: {fileID: 1661499704}
   - component: {fileID: 1661499703}
   - component: {fileID: 1661499705}
+  - component: {fileID: 1661499706}
   m_Layer: 0
   m_Name: Acumulador
   m_TagString: Untagged
@@ -2209,6 +2210,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d79377d08826334d943e17960bbbd0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1661499706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661499702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6541b6bfe5db3941be926e3893f82a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempo: {fileID: 864977398}
+  tiempoRecord: {fileID: 1596249174}
 --- !u!1 &2079515660
 GameObject:
   m_ObjectHideFlags: 0

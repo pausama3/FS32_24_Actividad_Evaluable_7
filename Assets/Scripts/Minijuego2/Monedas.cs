@@ -9,12 +9,12 @@ public class Monedas : MonoBehaviour
     [SerializeField]
     public GameObject tiempoActual;
 
-    private float contadorTiempo; 
+    
     void Start()
     {
         VariablesGlobales.contadorMonedas = 100;
         InvokeRepeating("IncrementarMonedas", 0f, 10f);
-        contadorTiempo = 0f;
+        VariablesGlobales.tiempo = 0f;
     }
 
     // Update is called once per frame
@@ -24,11 +24,11 @@ public class Monedas : MonoBehaviour
 
         if (VariablesGlobales.vida > 0)
         {
-            contadorTiempo += Time.deltaTime; // Incremento del tiempo transcurrido
+            VariablesGlobales.tiempo += Time.deltaTime; // Incremento del tiempo transcurrido
 
             // Mostrar el tiempo acumulado en el formato "00:00" (minutos y segundos)
-            int minutos = Mathf.FloorToInt(contadorTiempo / 60); // Obtener minutos
-            int segundos = Mathf.FloorToInt(contadorTiempo % 60); // Obtener segundos
+            int minutos = Mathf.FloorToInt(VariablesGlobales.tiempo / 60); // Obtener minutos
+            int segundos = Mathf.FloorToInt(VariablesGlobales.tiempo % 60); // Obtener segundos
 
             tiempoActual.gameObject.GetComponent<TMP_Text>().text = $"{minutos:00}:{segundos:00}";
         }
