@@ -13,7 +13,7 @@ public class Monedas : MonoBehaviour
     void Start()
     {
         VariablesGlobales.contadorMonedas = 100;
-        InvokeRepeating("IncrementarMonedas", 0f, 10f);
+        InvokeRepeating("IncrementarMonedas", 0f, 2f);
         VariablesGlobales.tiempo = 0f;
     }
 

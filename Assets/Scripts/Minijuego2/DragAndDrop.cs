@@ -31,13 +31,13 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         // Guardar la posición inicial del botón
         originalPosition = rectTransform.anchoredPosition;
         posRR = new int[4];
-       /* for (int i = 0; i < magos.transform.childCount; i++)
+        for (int i = 0; i < padreEscudero.transform.childCount; i++)
         {
-            padreEscudero.transform.GetChild(i).gameObject.GetComponent<EnemigoMago>().enabled = false;
-            arqueros.transform.GetChild(i).gameObject.GetComponent<EnemigoArquero>().enabled = false;
-            espadachines.transform.GetChild(i).gameObject.GetComponent<EnemigoEspadachin>().enabled = false;
-            caballeros.transform.GetChild(i).gameObject.GetComponent<EnemigoCaballero>().enabled = false;
-        }*/
+            padreEscudero.transform.GetChild(i).gameObject.GetComponent<Escudero>().enabled = false;
+            padreAsesino.transform.GetChild(i).gameObject.GetComponent<Asesino>().enabled = false;
+            padreArquero.transform.GetChild(i).gameObject.GetComponent<Arquero>().enabled = false;
+            padreMago.transform.GetChild(i).gameObject.GetComponent<Mago>().enabled = false;
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -107,7 +107,16 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             {
                 if (VariablesGlobales.contadorMonedas >= 30)
                 {
-                    Instantiate(prefabToCreate, worldPosition, Quaternion.identity);
+                    posRR[1]++;
+                    if (posRR[1] >= padreAsesino.transform.childCount)
+                    {
+                        posRR[1] = 0;
+                    }
+                    pRR = posRR[1];
+                    padreAsesino.transform.GetChild(pRR).gameObject.transform.position = worldPosition;
+                    padreAsesino.transform.GetChild(pRR).gameObject.GetComponent<Asesino>().enabled = true;
+
+                    //Instantiate(prefabToCreate, worldPosition, Quaternion.identity);
                     VariablesGlobales.contadorMonedas = VariablesGlobales.contadorMonedas - 30;
                 }
 
@@ -116,7 +125,16 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             {
                 if (VariablesGlobales.contadorMonedas >= 20)
                 {
-                    Instantiate(prefabToCreate, worldPosition, Quaternion.identity);
+                    posRR[2]++;
+                    if (posRR[2] >= padreArquero.transform.childCount)
+                    {
+                        posRR[2] = 0;
+                    }
+                    pRR = posRR[2];
+                    padreArquero.transform.GetChild(pRR).gameObject.transform.position = worldPosition;
+                    padreArquero.transform.GetChild(pRR).gameObject.GetComponent<Arquero>().enabled = true;
+
+                    //Instantiate(prefabToCreate, worldPosition, Quaternion.identity);
                     VariablesGlobales.contadorMonedas = VariablesGlobales.contadorMonedas - 20;
                 }
             }
@@ -124,7 +142,16 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             {
                 if (VariablesGlobales.contadorMonedas >= 10)
                 {
-                    Instantiate(prefabToCreate, worldPosition, Quaternion.identity);
+                    posRR[0]++;
+                    if (posRR[0] >= padreEscudero.transform.childCount)
+                    {
+                        posRR[0] = 0;
+                    }
+                    pRR = posRR[0];
+                    padreEscudero.transform.GetChild(pRR).gameObject.transform.position = worldPosition;
+                    padreEscudero.transform.GetChild(pRR).gameObject.GetComponent<Escudero>().enabled = true;
+
+                    //Instantiate(prefabToCreate, worldPosition, Quaternion.identity);
                     VariablesGlobales.contadorMonedas = VariablesGlobales.contadorMonedas - 10;
                 }
             }

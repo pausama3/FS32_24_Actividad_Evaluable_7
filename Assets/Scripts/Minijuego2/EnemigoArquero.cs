@@ -20,7 +20,7 @@ public class EnemigoArquero : MonoBehaviour
         move = true;
         morirse = false;
         VariablesGlobales.flechaRR = -1;
-        InvokeRepeating("CrearFlecha", 1f, 2f);
+        InvokeRepeating("CrearFlecha", 1f, 6f);
     }
 
     // Update is called once per frame

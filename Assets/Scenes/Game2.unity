@@ -2620,10 +2620,10 @@ MonoBehaviour:
   prefabToCreate: {fileID: 3347112550725104362, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
   spawner1: {fileID: 1676992701}
   spawner2: {fileID: 2052623830}
-  padreEscudero: {fileID: 0}
-  padreAsesino: {fileID: 0}
-  padreArquero: {fileID: 0}
-  padreMago: {fileID: 0}
+  padreEscudero: {fileID: 503652710}
+  padreAsesino: {fileID: 1291361070}
+  padreArquero: {fileID: 1289982181}
+  padreMago: {fileID: 694485779}
 --- !u!4 &491766827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4379641002194528328, guid: 4cd5c4136632a524c84ff59c0477a340, type: 3}
@@ -4425,12 +4425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14a38d6960ee7884a81d5bea83e340dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escudero: {fileID: 503652710}
-  arquero: {fileID: 1289982181}
-  asesino: {fileID: 1291361070}
-  mago: {fileID: 694485779}
-  posicion1: {fileID: 1817799376}
-  posicion2: {fileID: 1284921724}
 --- !u!4 &836076137
 Transform:
   m_ObjectHideFlags: 0
@@ -4654,10 +4648,10 @@ MonoBehaviour:
   prefabToCreate: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
   spawner1: {fileID: 1676992701}
   spawner2: {fileID: 2052623830}
-  padreEscudero: {fileID: 0}
-  padreAsesino: {fileID: 0}
-  padreArquero: {fileID: 0}
-  padreMago: {fileID: 0}
+  padreEscudero: {fileID: 503652710}
+  padreAsesino: {fileID: 1291361070}
+  padreArquero: {fileID: 1289982181}
+  padreMago: {fileID: 694485779}
 --- !u!1 &873460955
 GameObject:
   m_ObjectHideFlags: 0
@@ -11018,10 +11012,10 @@ MonoBehaviour:
   prefabToCreate: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
   spawner1: {fileID: 1676992701}
   spawner2: {fileID: 2052623830}
-  padreEscudero: {fileID: 0}
-  padreAsesino: {fileID: 0}
+  padreEscudero: {fileID: 503652710}
+  padreAsesino: {fileID: 1291361070}
   padreArquero: {fileID: 1289982181}
-  padreMago: {fileID: 0}
+  padreMago: {fileID: 694485779}
 --- !u!1001 &2124923660
 PrefabInstance:
   m_ObjectHideFlags: 0
