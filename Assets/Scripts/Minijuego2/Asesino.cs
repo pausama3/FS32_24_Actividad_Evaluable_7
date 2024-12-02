@@ -29,14 +29,14 @@ public class Asesino : MonoBehaviour
                 {
                     morirse = true;
                     Invoke("Morir", 0.3f);
-                    //animacion morir                
+                    gameObject.GetComponent<Animator>().SetTrigger("Die");
                 }
             }
             if (other.CompareTag("BolaFuego"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                //animacion morir
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
         }
     }

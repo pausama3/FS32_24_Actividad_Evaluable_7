@@ -30,7 +30,7 @@ public class Escudero : MonoBehaviour
                 {
                     morirse = true;
                     Invoke("Morir", 0.3f);
-                    //animacion morir                
+                    gameObject.GetComponent<Animator>().SetTrigger("Die");
                 }
             }
             if (other.CompareTag("FlechaEnemiga"))
@@ -38,14 +38,14 @@ public class Escudero : MonoBehaviour
                 morirse = true;
                 Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
-                //animacion morir
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
 
             }
             if (other.CompareTag("BolaFuego"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                //animacion morir
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
         }
     }

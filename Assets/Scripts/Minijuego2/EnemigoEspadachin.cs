@@ -27,21 +27,21 @@ public class EnemigoEspadachin : MonoBehaviour
             {
                 morirse = true;                
                 Invoke("Morir", 0.3f);
-                //animacion morir                
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
             if (other.CompareTag("FlechaAliada"))
             {
                 morirse = true;
                 Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
-                //animacion morir
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
 
             }
             if (other.CompareTag("BolaAzul"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                //animacion morir
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
             if (other.CompareTag("Castillo"))
             {

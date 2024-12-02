@@ -45,24 +45,27 @@ public class Mago : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("BolaFuego"))
+        if (!morirse)
         {
-            morirse = true;
-            Invoke("Morir", 0.3f);
-            //animacion morir
-        }
-        if (other.CompareTag("Enemigo"))
-        {
-            morirse = true;
-            Invoke("Morir", 0.3f);
-            //animacion morir
-        }
-        if (other.CompareTag("FlechaEnemiga"))
-        {
-            morirse = true;
-            Destroy(other.gameObject);
-            Invoke("Morir", 0.3f);
-            //animacion morir
+            if (other.CompareTag("BolaFuego"))
+            {
+                morirse = true;
+                Invoke("Morir", 0.3f);
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
+            }
+            if (other.CompareTag("Enemigo"))
+            {
+                morirse = true;
+                Invoke("Morir", 0.3f);
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
+            }
+            if (other.CompareTag("FlechaEnemiga"))
+            {
+                morirse = true;
+                Destroy(other.gameObject);
+                Invoke("Morir", 0.3f);
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
+            }
         }
     }
     private void Morir()
