@@ -15,6 +15,7 @@ TagManager:
   - FlechaAliada
   - Castillo
   - DropZone
+  - Limit
   layers:
   - Default
   - TransparentFX
