@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ScriptWorldRotation : MonoBehaviour {
-
     float current = 0;
     [SerializeField]
     float velocidad = 5;
@@ -19,7 +18,6 @@ public class ScriptWorldRotation : MonoBehaviour {
         transform.Rotate(new Vector3(0, 0, -velocidad * current));
 
         if (Input.GetKeyDown(KeyCode.Escape)) {
-
             SceneManager.LoadScene("MainMenu");
         }
     }

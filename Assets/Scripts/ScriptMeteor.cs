@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ScriptMeteor : MonoBehaviour {
     [SerializeField] [Range(1, 10)] float speed = 5;
@@ -11,9 +10,7 @@ public class ScriptMeteor : MonoBehaviour {
         if (collision.tag == "Shield") {
             transform.position = new Vector2(Random.Range(-10,10), 10);
             speed = Random.Range(3, 8);
-        }
-        if (collision.tag == "Earth") {
-            SceneManager.LoadScene("MainMenu");
+            VariablesGlobales.contadorMonedas++;
         }
     }
 }
