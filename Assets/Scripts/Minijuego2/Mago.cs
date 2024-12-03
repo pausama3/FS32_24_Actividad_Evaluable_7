@@ -66,7 +66,7 @@ public class Mago : MonoBehaviour
             if (other.CompareTag("FlechaEnemiga"))
             {
                 morirse = true;
-                Destroy(other.gameObject);
+                //Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
@@ -81,6 +81,7 @@ public class Mago : MonoBehaviour
     private void Morir()
     {
         this.transform.position = new Vector3(6, 0, 0);
+        morirse = false;
         gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<Mago>().enabled = false;
     }

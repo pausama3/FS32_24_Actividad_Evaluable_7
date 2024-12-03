@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Flecha : MonoBehaviour
@@ -19,7 +20,15 @@ public class Flecha : MonoBehaviour
     {
         if (other.CompareTag("Castillo"))
         {
-            Destroy(this.gameObject);
+            Morir();
         }
+        if (other.GetComponent<Escudero>() != null || other.GetComponent<Arquero>() != null || other.GetComponent<Mago>() != null)
+        {
+            Morir();
+        }
+    }
+    private void Morir()
+    {
+        this.transform.position = new Vector3(-6, 0, 0);
     }
 }

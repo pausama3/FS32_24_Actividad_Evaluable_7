@@ -168,6 +168,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (6)
@@ -647,6 +651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -896,6 +904,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3996429636658152566, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
@@ -1173,6 +1185,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_Name
       value: Escudero (6)
@@ -1195,6 +1211,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (7)
@@ -1739,6 +1759,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_Name
       value: Escudero (7)
@@ -2134,6 +2158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2190,6 +2218,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3996429636658152566, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
@@ -2542,7 +2574,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 836076136}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CreadorDeAliados, Assembly-CSharp
         m_MethodName: CrearAsesino
         m_Mode: 1
@@ -2817,6 +2849,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (3)
@@ -3117,6 +3153,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_Name
       value: Escudero (5)
@@ -3359,6 +3399,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (8)
@@ -3563,6 +3607,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero
@@ -3874,6 +3922,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (9)
@@ -4039,6 +4091,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3996429636658152566, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
@@ -4531,7 +4587,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 836076137}
-  - component: {fileID: 836076136}
   - component: {fileID: 836076138}
   - component: {fileID: 836076139}
   - component: {fileID: 836076140}
@@ -4542,18 +4597,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &836076136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836076135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14a38d6960ee7884a81d5bea83e340dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &836076137
 Transform:
   m_ObjectHideFlags: 0
@@ -4699,7 +4742,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 836076136}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CreadorDeAliados, Assembly-CSharp
         m_MethodName: CrearArquero
         m_Mode: 1
@@ -5416,6 +5459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5744,6 +5791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6059,6 +6110,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (4)
@@ -6540,6 +6595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6737,6 +6796,10 @@ PrefabInstance:
     - target: {fileID: 3347112550725104362, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
       propertyPath: m_Name
       value: Asesino (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7013,7 +7076,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 836076136}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CreadorDeAliados, Assembly-CSharp
         m_MethodName: CrearMago
         m_Mode: 1
@@ -7544,6 +7607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8007,6 +8074,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_Name
       value: Escudero
@@ -8091,6 +8162,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (5)
@@ -8575,6 +8650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8820,6 +8899,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_Name
       value: Escudero (8)
@@ -8885,6 +8968,10 @@ PrefabInstance:
     - target: {fileID: 3347112550725104362, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
       propertyPath: m_Name
       value: Asesino (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9440,6 +9527,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (10)
@@ -9540,6 +9631,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3996429636658152566, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
@@ -9730,6 +9825,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3996429636658152566, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
@@ -10009,6 +10108,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (2)
@@ -10336,6 +10439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10548,6 +10655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asesino (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8365117649660809246, guid: e507c88d3b97ff044ba0fb59be0222d7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10673,6 +10784,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1289982182}
     m_Modifications:
+    - target: {fileID: -8265476210981086441, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 437373696488436756, guid: de7cfb4ec2e4def4780c94607ddc4772, type: 3}
       propertyPath: m_Name
       value: Arquero (1)
@@ -11081,6 +11196,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596966586316311448, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9190455821395557535, guid: 06f6dc14cd936c84684f5256a77243e0, type: 3}
       propertyPath: m_Name
       value: Escudero (4)
@@ -11179,7 +11298,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 836076136}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CreadorDeAliados, Assembly-CSharp
         m_MethodName: CrearEscudero
         m_Mode: 1

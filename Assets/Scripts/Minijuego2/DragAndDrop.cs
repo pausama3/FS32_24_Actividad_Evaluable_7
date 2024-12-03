@@ -31,13 +31,13 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         // Guardar la posición inicial del botón
         originalPosition = rectTransform.anchoredPosition;
         posRR = new int[4];
-        for (int i = 0; i < padreEscudero.transform.childCount; i++)
+        /*for (int i = 0; i < padreEscudero.transform.childCount; i++)
         {
             padreEscudero.transform.GetChild(i).gameObject.GetComponent<Escudero>().enabled = false;
             padreAsesino.transform.GetChild(i).gameObject.GetComponent<Asesino>().enabled = false;
             padreArquero.transform.GetChild(i).gameObject.GetComponent<Arquero>().enabled = false;
             padreMago.transform.GetChild(i).gameObject.GetComponent<Mago>().enabled = false;
-        }
+        }*/
     }
 
     public void OnBeginDrag(PointerEventData eventData)

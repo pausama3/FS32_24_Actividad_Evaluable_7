@@ -10,11 +10,14 @@ public class Escudero : MonoBehaviour
     void Start()
     {
         morirse=false;
+        Debug.Log("arranca");
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("estoydentro");
+        Debug.Log("valor morirse"+ morirse);
         if (!morirse)
         {
             transform.Translate(Vector3.up * velocidad * Time.deltaTime);
@@ -36,7 +39,7 @@ public class Escudero : MonoBehaviour
             if (other.CompareTag("FlechaEnemiga"))
             {
                 morirse = true;
-                Destroy(other.gameObject);
+                //Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
 
@@ -57,7 +60,9 @@ public class Escudero : MonoBehaviour
     }
     private void Morir()
     {
+        
         this.transform.position = new Vector3(6, 0, 0);
+        morirse = false;
         gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<Escudero>().enabled = false;
     }

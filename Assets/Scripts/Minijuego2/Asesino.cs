@@ -49,6 +49,7 @@ public class Asesino : MonoBehaviour
     private void Morir()
     {
         this.transform.position = new Vector3(6, 0, 0);
+        morirse = false;
         gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<Asesino>().enabled = false;
     }

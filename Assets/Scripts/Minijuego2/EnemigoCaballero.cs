@@ -62,6 +62,7 @@ public class EnemigoCaballero : MonoBehaviour
     private void Morir()
     {
         this.transform.position = new Vector3(-6, 0, 0);
+        morirse = false;
         gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<EnemigoCaballero>().enabled = false;
     }
