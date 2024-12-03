@@ -33,7 +33,7 @@ public class Escudero : MonoBehaviour
                 {
                     morirse = true;
                     Invoke("Morir", 0.3f);
-                    gameObject.GetComponent<Animator>().SetTrigger("Die");
+                    //gameObject.GetComponent<Animator>().SetTrigger("Die");
                 }
             }
             if (other.CompareTag("FlechaEnemiga"))
@@ -41,20 +41,20 @@ public class Escudero : MonoBehaviour
                 morirse = true;
                 //Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
 
             }
             if (other.CompareTag("BolaFuego"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
             if (other.CompareTag("LimiteAliados"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
         }
     }
@@ -63,7 +63,7 @@ public class Escudero : MonoBehaviour
         
         this.transform.position = new Vector3(6, 0, 0);
         morirse = false;
-        gameObject.GetComponent<Animator>().ResetTrigger("Die");
+        //gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<Escudero>().enabled = false;
     }
 }

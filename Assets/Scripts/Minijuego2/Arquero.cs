@@ -50,26 +50,26 @@ public class Arquero : MonoBehaviour
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
             if (other.CompareTag("Enemigo"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
             if (other.CompareTag("FlechaEnemiga"))
             {
                 morirse = true;
                 //Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
             if(other.CompareTag("LimiteAliados"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
         }
     }
@@ -77,7 +77,7 @@ public class Arquero : MonoBehaviour
     {
         this.transform.position = new Vector3(6, 0, 0);
         morirse = false;
-        gameObject.GetComponent<Animator>().ResetTrigger("Die");
+       // gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<Arquero>().enabled = false;
     }
 

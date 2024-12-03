@@ -32,7 +32,7 @@ public class EnemigoCaballero : MonoBehaviour
                 {
                     morirse = true;
                     Invoke("Morir", 0.3f);
-                    gameObject.GetComponent<Animator>().SetTrigger("Die");
+                   // gameObject.GetComponent<Animator>().SetTrigger("Die");
                     sound.GetComponent<AudioSource>().Play();
                 }
             }
@@ -41,14 +41,14 @@ public class EnemigoCaballero : MonoBehaviour
                 morirse = true;
                 Destroy(other.gameObject);
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+               // gameObject.GetComponent<Animator>().SetTrigger("Die");
                 sound.GetComponent<AudioSource>().Play();
             }
             if (other.CompareTag("BolaAzul"))
             {
                 morirse = true;
                 Invoke("Morir", 0.3f);
-                gameObject.GetComponent<Animator>().SetTrigger("Die");
+                //gameObject.GetComponent<Animator>().SetTrigger("Die");
                 sound.GetComponent<AudioSource>().Play();
             }
             if (other.CompareTag("Castillo"))
@@ -63,7 +63,7 @@ public class EnemigoCaballero : MonoBehaviour
     {
         this.transform.position = new Vector3(-6, 0, 0);
         morirse = false;
-        gameObject.GetComponent<Animator>().ResetTrigger("Die");
+        //gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<EnemigoCaballero>().enabled = false;
     }
 }
