@@ -15,4 +15,11 @@ public class FlechaAliada : MonoBehaviour
     {
         transform.Translate(Vector3.up * velocidad * Time.deltaTime, Space.World);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("LimiteAliados"))
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

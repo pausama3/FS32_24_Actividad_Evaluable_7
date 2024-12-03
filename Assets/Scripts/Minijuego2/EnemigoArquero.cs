@@ -87,6 +87,7 @@ public class EnemigoArquero : MonoBehaviour
     private void Morir()
     {
         this.transform.position = new Vector3(-6, 0, 0);
+        gameObject.GetComponent<Animator>().ResetTrigger("Die");
         this.gameObject.GetComponent<EnemigoArquero>().enabled = false;
     }
 }
