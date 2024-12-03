@@ -18,6 +18,7 @@ TagManager:
   - Limit
   - enemysound
   - allysound
+  - LimiteAliados
   layers:
   - Default
   - TransparentFX

@@ -47,10 +47,17 @@ public class Escudero : MonoBehaviour
                 Invoke("Morir", 0.3f);
                 gameObject.GetComponent<Animator>().SetTrigger("Die");
             }
+            if (other.CompareTag("LimiteAliados"))
+            {
+                morirse = true;
+                Invoke("Morir", 0.3f);
+                gameObject.GetComponent<Animator>().SetTrigger("Die");
+            }
         }
     }
     private void Morir()
-    {        
-        Destroy(this.gameObject);
+    {
+        this.transform.position = new Vector3(6, 0, 0);
+        this.gameObject.GetComponent<EnemigoEspadachin>().enabled = false;
     }
 }
